@@ -1,0 +1,24 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme  
+
+kramdown:
+  parse_block_html: false
+
+exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+include:
+  - _pages
+
+timezone: America/New_York
+
+url: https://test-313.github.io 
+baseurl: "/"  
+github_url: https://github.com/test-313/test-313.github.io
+
+title: "CMU 17-313"
+course: "17-313"
+
+
+
